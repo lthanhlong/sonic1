@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: darkslategray;
+    background-image: url('../Images/sonic-the-hedgehog-2020movie-poster-7u.jpg');
+    background-size: 100%;
+  }
+  
+  /* Header */
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    background-image: url('../Images/sonic-the-hedgehog4k-8x.jpg');
+    background-size: auto;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: darkgoldenrod;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+    text-align: -webkit-center;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 0px;
+    text-align: center;
+    background: darkgoldenrod;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  /* start login & register */
+  *{
+    padding: 10px 10px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Welcome{
+    color: brown;
+}
+
+.btn-box{
+        border: none;
+        color: white;
+        padding: 1px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        
+}
+
+form{
+    background-color: blanchedalmond;
+    width: 500px;
+    text-align: center;
+}
+
+b{
+    padding: 0px;
+}
+
+td{
+    text-align: end;
+    padding: 5px;
+}
+
+  /* end login & register*/
+
+
+  .column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
