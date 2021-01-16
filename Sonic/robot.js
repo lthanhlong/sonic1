@@ -190,7 +190,7 @@ function goalOrientedRobot({place, parcels}, route) {
         heights[place] += 14
         let node = document.createElement("div")
         let offset = placeKeys.indexOf(address) * 16
-        node.style.cssText = "position: absolute; height: 10px; width: 10px; background-image: url(./asset/map1.gif); background-position: 0 -" + offset + "px";
+        node.style.cssText = "position: absolute; height: 10px; width: 10px; background-image: url(./asset/coin.gif); background-position: 0 -" + offset + "px";
         if (place == this.worldState.place) {
           node.style.left = "25px"
           node.style.bottom = (20 + height) + "px"
